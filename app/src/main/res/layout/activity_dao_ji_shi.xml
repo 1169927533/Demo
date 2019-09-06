@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".daojishi.DaoJiShiActivity">
+
+    <com.example.demo.daojishi.MyView_Ceshi
+        android:id="@+id/cpb_countdown"
+        android:layout_width="380dp"
+        android:layout_height="380dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        app:countDown_centerTextColor="#ffffffff"
+        app:countDown_centerTextSize="25dp"
+        app:countDown_circleWidth="28dp"
+        app:countDown_firstColor="#ffffffff"
+        app:countDown_isShowGradient="true"
+        app:countDown_secondColor="#ffffffff"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TitleView">
+        <attr name="title" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="CountDownProgressBar">
+        <attr name="countDown_circleWidth" format="dimension" /><!--圆弧宽度-->
+        <attr name="countDown_centerTextSize" format="dimension" /><!--中间的字体大小-->
+        <attr name="countDown_betaAngle" format="integer" /><!--弧度-->
+        <attr name="countDown_firstColor" format="color" /><!--渐变的第一种颜色-->
+        <attr name="countDown_secondColor" format="color" /><!--渐变的第二种颜色-->
+        <attr name="countDown_centerTextColor" format="color" /><!--文字颜色-->
+        <attr name="countDown_isShowGradient" format="boolean" />
+    </declare-styleable>
+</resources>
